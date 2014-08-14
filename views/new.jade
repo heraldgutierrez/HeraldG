@@ -1,0 +1,14 @@
+extends layout
+
+block content
+	div#wrapper
+		form.login-form(action='/addUrl', method='post')
+			div.header
+				h1 New Url
+			div.form-content
+				input.input(type='text' name='url' placeholder='Url')
+				br
+				input.input(type='text' name='shorten' placeholder='Shortened Url')
+
+			div.footer
+				input.button(type='submit' name='submit' value='Submit')

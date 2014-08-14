@@ -1,0 +1,14 @@
+.about {
+	margin: 50px 20px;
+	text-align: justify;
+
+	p {
+		a {
+			font-weight: bold;
+
+			&:hover {
+				font-style: italic;
+			}
+		}
+	}
+}

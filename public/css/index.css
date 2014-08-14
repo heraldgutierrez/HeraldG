@@ -1,0 +1,7 @@
+.about {
+  margin: 50px 20px;
+  text-align: justify; }
+  .about p a {
+    font-weight: bold; }
+    .about p a:hover {
+      font-style: italic; }

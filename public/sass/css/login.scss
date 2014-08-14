@@ -1,0 +1,54 @@
+/*******************
+BODY STYLING
+*******************/
+#wrapper {
+	width: 300px;
+}
+
+/*******************
+LOGIN FORM
+*******************/
+
+/*******************
+HEADER
+*******************/
+.login-form {
+	.header {
+		h1 { 
+			margin-bottom: 10px;		
+
+			&.login { width: 70px; }
+			&.signup { width: 100px; }
+		}
+
+		.info {
+			width: 230px;
+			text-align: center;
+			margin: 0 auto;
+		}
+
+		span {
+			font-size: 11px;
+			line-height: 16px;
+			color: #678889;
+			text-shadow: 1px 1px 0 rgba(256,256,256,1.0);
+			text-align: justify;
+		}
+	}
+
+	/*******************
+	CONTENT
+	*******************/
+	.form-content {
+		padding: 0 0 25px 0;
+		width: 190px;
+		margin: 0 auto;
+	
+		.input {
+			width: 188px;
+			padding: 15px 25px;
+		}
+	}
+
+	.footer { padding: 25px 101px 40px 101px; }
+}
